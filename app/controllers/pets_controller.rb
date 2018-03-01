@@ -27,6 +27,6 @@ class PetsController < ApplicationController
 
   post '/pets/:id' do
 
-    redirect to "pets/#{@pet.id}"
+    redirect to "/pets/#{@pet.id}"
   end
 end
